@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BookStop-Docs/v17
+/.vs/BookStop-Docs/FileContentIndex
+/.vs
