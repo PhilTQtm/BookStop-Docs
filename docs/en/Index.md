@@ -1,4 +1,4 @@
-# <span translate="no">BookStop Documentation</span>
+# <span translate="no">BookStop Help Guide</span>
 
 **BookStop** offers an online booking solution combined with a hosted website for your business. 
 Ideal for those that need online booking and a basic online presence in a convenient package, with a 
