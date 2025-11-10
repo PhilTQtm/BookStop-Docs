@@ -61,3 +61,21 @@ opotional elements such as meal size upgrades and extra hours, so we have two bo
 
 - Catered Private Party
 - Non-catered Private Party
+
+#### Price Bands
+
+General Admission prices are based on the common Child, Adult, Concession structure so we define 
+those into a price band:
+
+- General Admission Prices
+    1. Child, Price £5.00, Min Qty 0, Max Qty 8
+    1. Adult, Price, £10.00, Min Qty 0, Max Qty 8
+    1. Concession, Price £7.50, Min Qty 0, Max Qty 8
+
+Private parties are structured differently so require different price bands, for illustration 
+purposes we just define the Catered Party:
+
+- Catered Party
+    1. Guest, Price £15.00, Min Qty 20, Max Qty 50
+    1. Supersize, Price £5.00, Min Qty 0, Max Qty 50
+    1. Extra hour, Price £100, Min Qty 0, Max Qty 1
