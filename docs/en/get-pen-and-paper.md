@@ -72,3 +72,35 @@ those into a price band:
     1. Adult, Price, 10.00, Min Qty 0, Max Qty 8
     1. Concession, Price 7.50, Min Qty 0, Max Qty 8
 
+Private parties are structured differently so require different price bands, for illustration 
+purposes we just define the Catered Party:
+
+- Catered Party
+    1. Guest, Price 15.00, Min Qty 20, Max Qty 50
+    1. Supersize, Price 5.00, Min Qty 0, Max Qty 50
+    1. Extra hour, Price 100, Min Qty 0, Max Qty 1
+
+#### Slot Templates
+
+General admission times are different for all three days so we define three templates.
+
+- Friday
+    1. Days - Friday
+    1. Time - 2pm through 10pm
+
+- Saturday
+    1. Days - Saturday
+    1. Time - 11am through 10pm
+
+- Sunday
+    1. Days - Sunday
+    1. Time - 11am through 8pm
+   
+Private parties are the same throughout the week so we only need one template.
+
+- Party
+    1. Days - Mon through thursday
+    1. Time - 5pm through 7pm
+
+We now have everything needed to generate bookable slots for any arbitary date range.
+
